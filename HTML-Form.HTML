@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <div class="container">
+      <!-- input tag -->
+      <form>
+        <label for="Uname"><b>User Name</b></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Enter user name"
+          name="Uname"
+          id="uname"
+        /><br />
+        <label for="Upass"><b>Password</b></label
+        ><br />
+        <input
+          type="password"
+          placeholder="Enter password"
+          name="Upass"
+          id="pass"
+        /><br />
+
+        <label for="Eamil"><b>Email ID</b></label
+        ><br />
+        <input
+          type="email"
+          placeholder="Enter email"
+          name="Email"
+          id="email"
+        /><br />
+        <label for="Mobile"><b>Enter Mobile number</b></label
+        ><br />
+        <input
+          type="number"
+          placeholder="Enter mobile Number"
+          name="Mobile"
+          id="mobile"
+        /><br />
+
+        <!-- select tag -->
+
+        <label for="Branch"><b>Choose Branch</b></label
+        ><br />
+        <select name="Branch" id="branch">
+          <option value="mca">MCA</option>
+          <option value="bca">BCA</option>
+          <option value="mba">MBA</option></select
+        ><br />
+
+        <!-- radio button -->
+        <p><b>Gender</b></p>
+        <input type="radio" id="male" name="Gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="female" />
+        <label for="Gender">Female</label>
+
+        <p><b>Working On</b></p>
+        <input type="checkbox" id="react" name="Language" value="React" />
+        <label for="Language">React</label>
+        <input type="checkbox" id="angular" name="Language" value="Angular" />
+        <label for="Language">Angular</label>
+        <input type="checkbox" id="dotnet" name="Language" value="DotNet" />
+        <label for="Language">DotNet</label><br />
+
+        <label for="Address"><b>Address:</b></label
+        ><br />
+
+        <textarea name="Address"></textarea>
+        <br />
+        <!-- Button tag -->
+        <button value="Submit">Submit</button>
+        <button value="reset">Cancel</button>
+      </form>
+    </div>
+  </body>
+</html>
